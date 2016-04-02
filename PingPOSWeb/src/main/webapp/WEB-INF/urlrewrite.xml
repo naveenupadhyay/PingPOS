@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite  PUBLIC "-//tuckey.org//DTD UrlRewrite 3.2//EN" "http://www.tuckey.org/res/dtds/urlrewrite3.2.dtd">
+<urlrewrite>
+	<rule>
+		<condition name="host" operator="equal">^snapdeal\.com</condition>
+		<from>^/(.*)</from>
+		<to type="permanent-redirect" last="true">http://www.snapdeal.com/$1</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/favicon.ico$</from>
+		<to last="true">/static/img/icons/favicon.ico</to>
+	</rule>
+	<rule enabled="true">
+		<from>^(/secure)?/js/[a-z0-9]+/(.+\.js)$</from>
+		<set type="response-header" name="Cache-Control">private, max-age=3600000</set>
+		<set type="response-header" name="Expires">Thu, 06 Aug 2011 16:00:00 GMT</set>
+		<to last="true">/static/js/$2</to>
+	</rule>
+	<rule enabled="true">
+		<from>^(/secure)?/css/[a-z0-9]+/(.+\.css)$</from>
+		<set type="response-header" name="Cache-Control">private, max-age=3600000</set>
+		<set type="response-header" name="Expires">Thu, 06 Aug 2011 16:00:00 GMT</set>
+		<to last="true">/static/css/$2</to>
+	</rule>
+	<rule enabled="true">
+		<from>^(/secure)?/(img|font|w3c|doc)/(.*)$</from>
+		<set type="response-header" name="Cache-Control">public, max-age=3600000</set>
+		<to last="true">/static/$2/$3</to>
+	</rule>
+	<rule>
+		<condition name="host" operator="notequal">^www\.snapdeal\.com</condition>
+		<from>^/robots.txt</from>
+		<to type="forward" last="true">/robotsno.txt</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/Faq$</from>
+		<to type="redirect" last="true">/info/faq</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/How$</from>
+		<to type="redirect" last="true">/info/howitworks</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/Legal$</from>
+		<to type="redirect" last="true">/info/terms</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/Press$</from>
+		<to type="redirect" last="true">/info/press</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/refer-friends-win-movie-tickets$</from>
+		<to type="redirect" last="true">/refer-friends-win-prizes</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/About$</from>
+		<to type="redirect" last="true">/info/aboutus</to>
+	</rule>
+	<rule>
+		<condition name="host" operator="equal">^api\.snapdeal\.com</condition>
+		<from>^/rest/(.*)</from>
+		<to>/api/rest/$1</to>
+		<set type="response-header" name="Content-Type">text/xml; charset=UTF-8</set>
+	</rule>
+	<rule>
+		<condition name="host" operator="equal">^getaways\.snapdeal\.com</condition>
+		<from>^/(.*)$</from>
+		<set name="getaways">true</set>
+	</rule>
+	<rule>
+		<from>^/deal([s]?)-Delhi-NCR(.*)$</from>
+		<to>/deal$1-Delhi~NCR$2</to>
+	</rule>
+	<rule>
+		<from>^/Delhi-NCR$</from>
+		<to type="redirect" last="true">/deals-Delhi</to>
+	</rule>
+	<rule>
+		<from>^/daily-deal-alerts-ref$</from>
+		<to>/daily-deal-alerts-ref?utm_source=ref</to>
+	</rule>
+	<rule>
+		<from>^/deals-chennai_central_west$</from>
+		<to type="redirect" last="true">/deals-chennai_west</to>
+	</rule>
+	<rule>
+		<from>^/deals-chennai_south_north$</from>
+		<to type="redirect" last="true">/deals-chennai_south</to>
+	</rule>
+	<rule>
+		<from>^/deal([s]?)-vizag(.*)$</from>
+		<to>/deal$1-vishakhapatnam$2</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/recentdeals(.*)$</from>
+		<to type="redirect" last="true">/recent-deals$1</to>
+	</rule>
+	<rule>
+		<from>^/deal-newsletter-subscription(.*)$</from>
+		<to last="true">-</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/bignite$</from>
+		<to last="true">/info/bash</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/esselworld$</from>
+		<to type="redirect" last="true">/bignite</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/kids-toys-toys$</from>
+		<to type="permanent-redirect" last="true">/products/kids-toys-collectible-toys</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/womenapparel$</from>
+		<to type="permanent-redirect" last="true">/products/women-apparel</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/apparel$</from>
+		<to type="permanent-redirect" last="true">/products/women-apparel</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/apparel-men$</from>
+		<to type="permanent-redirect" last="true">/products/men-apparel</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/kitchen$</from>
+		<to type="permanent-redirect" last="true">/products/home-kitchen</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/cosmetics$</from>
+		<to type="permanent-redirect" last="true">/products/perfumes-beauty-cosmetics</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/sunglasses$</from>
+		<to type="permanent-redirect" last="true">/products/lifestyle-sunglasses</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/watches$</from>
+		<to type="permanent-redirect" last="true">/products/lifestyle-watches</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/accessories$</from>
+		<to type="permanent-redirect" last="true">/products/lifestyle-handbags-wallets</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/camera-camcorders$</from>
+		<to type="permanent-redirect" last="true">/products/electronic-camcorders</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/camera-accessories$</from>
+		<to type="permanent-redirect" last="true">/products/electronic-camera-accessories</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/camera-digital-cameras$</from>
+		<to type="permanent-redirect" last="true">/products/electronic-digital-cameras</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/camera-digital-photo-frames$</from>
+		<to type="permanent-redirect" last="true">/products/electronic-digital-photo-frames</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/camera-digital-slrs$</from>
+		<to type="permanent-redirect" last="true">/products/electronic-digital-slrs</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/camera-memory$</from>
+		<to type="permanent-redirect" last="true">/products/electronic-memory-storage-media</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/electronic-car-accessories$</from>
+		<to type="permanent-redirect" last="true">/products/electronic-car-electronics</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/computers-peripherals$</from>
+		<to type="permanent-redirect" last="true">/products/computers-computer-peripherals</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/perfumes-beauty-bath$</from>
+		<to type="permanent-redirect" last="true">/products/perfumes-beauty-bath-body</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/home-kitchen-hardware$</from>
+		<to type="permanent-redirect" last="true">/products/home-kitchen-hardware-fixtures</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/home-kitchen-Storage$</from>
+		<to type="permanent-redirect" last="true">/products/home-kitchen-home-kitchen-storage</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/kids-toys-educational-toys$</from>
+		<to type="permanent-redirect" last="true">/products/kids-toys-educational-products</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/kids-toys-indoor-games$</from>
+		<to type="permanent-redirect" last="true">/products/kids-toys-indoor-games-puzzles</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/kids-toys-kids-apparel$</from>
+		<to type="permanent-redirect" last="true">/products/kids-toys-kids-apparel-accessories</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/kids-toys-room-decor$</from>
+		<to type="permanent-redirect" last="true">/products/kids-toys-kids-room-decor</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/kids-toys-outdoor-sports$</from>
+		<to type="permanent-redirect" last="true">/products/kids-toys-outdoor-sports-accessories</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/apparel-women$</from>
+		<to type="permanent-redirect" last="true">/products/women-apparel</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/camera$</from>
+		<to type="permanent-redirect" last="true">/products/electronic-digital-cameras</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/perfumes-beauty-perfumes$</from>
+		<to type="permanent-redirect" last="true">/products/perfumes-beauty-fragrances</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/luxury-watches$</from>
+		<to type="permanent-redirect" last="true">/products/lifestyle-watches</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/luxury-accessories$</from>
+		<to type="permanent-redirect" last="true">/products/fashion</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/luxury-sunglasses$</from>
+		<to type="permanent-redirect" last="true">/products/lifestyle-sunglasses</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/products/luxury-footwear$</from>
+		<to type="permanent-redirect" last="true">/products/footwear-mens-footwear</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/product-(.*)-(.*)$</from>
+		<to type="permanent-redirect" last="true">/product/$2/$1</to>
+	</rule>
+	<rule enabled="true">
+		<from>^/product/(.*)/(.*)-(.*)$</from>
+		<to type="permanent-redirect" last="true">/product/$2/$3</to>
+	</rule>
+</urlrewrite>

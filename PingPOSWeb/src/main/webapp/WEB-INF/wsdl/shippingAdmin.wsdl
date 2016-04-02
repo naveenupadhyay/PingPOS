@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+	
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://shipping.snapdeal.com/services/"
+	targetNamespace="http://shipping.snapdeal.com/services/" xmlns:p="http://www.w3.org/2001/XMLSchema">
+  	<wsdl:types>
+   	 		<xs:schema xmlns:sd="http://shipping.snapdeal.com/services/"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified"
+			elementFormDefault="qualified" targetNamespace="http://shipping.snapdeal.com/services/">
+     	<xs:element name="UpdateSOIStatusRequest">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="suborderCode" type="xs:string" />
+						<xs:element name="statusCode" type="xs:string" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="UpdateSOIStatusResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="updateSuccessful" type="xs:boolean"></xs:element>
+						<xs:element name="message" type="xs:string" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+
+			<xs:element name="Authentication">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="apiKey" type="xs:string" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+
+			<xs:element name="GetTrackingNumberAndProviderRequest">
+				<xs:complexType>
+					<xs:sequence>
+					<xs:element name="pincode" minOccurs="0" type="xs:string" />
+						<xs:element name="suborders">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element maxOccurs="unbounded" minOccurs="1" name="subOrderCode">
+
+										
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="GetTrackingNumberAndProviderResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="awbNumber" type="xs:string" />
+						<xs:element name="providerCode" type="xs:string" />
+						<xs:element name="message" type="xs:string" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="CreatePackageForWMSRequest">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="shippingProvider" type="xs:string" minOccurs="1" />
+						<xs:element name="manifestId" type="xs:string" minOccurs="0" />
+						<xs:element name="trackingNumber" type="xs:string" minOccurs="1" />
+						<xs:element name="suborders">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element maxOccurs="unbounded" minOccurs="1" name="subOrderCode">
+										
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="CreatePackageForWMSResponse">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="packageCreationSuccessFull" type="xs:boolean" />
+						<xs:element name="message" type="xs:string" />
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:schema>
+	</wsdl:types>
+
+	<wsdl:message name="AuthenticationHeader">
+		<wsdl:part name="Authentication" element="tns:Authentication" />
+	</wsdl:message>
+	<wsdl:message name="UpdateSOIStatusRequest">
+		<wsdl:part name="UpdateSOIStatusRequest" element="tns:UpdateSOIStatusRequest"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="UpdateSOIStatusResponse">
+		<wsdl:part name="UpdateSOIStatusResponse" element="tns:UpdateSOIStatusResponse"></wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="GetTrackingNumberAndProviderRequest">
+		<wsdl:part element="tns:GetTrackingNumberAndProviderRequest" name="GetTrackingNumberAndProviderRequest">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="GetTrackingNumberAndProviderResponse">
+		<wsdl:part element="tns:GetTrackingNumberAndProviderResponse" name="GetTrackingNumberAndProviderResponse">
+		</wsdl:part>
+	</wsdl:message>
+
+	<wsdl:message name="CreatePackageForWMSRequest">
+		<wsdl:part element="tns:CreatePackageForWMSRequest" name="CreatePackageForWMSRequest">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="CreatePackageForWMSResponse">
+		<wsdl:part element="tns:CreatePackageForWMSResponse" name="CreatePackageForWMSResponse">
+	</wsdl:part>
+	</wsdl:message>
+
+	<wsdl:message name="Up">
+		<wsdl:part name="NewPart" type="p:string"></wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="Shipping">
+		<wsdl:operation name="UpdateSOIStatus">
+			<wsdl:input message="tns:UpdateSOIStatusRequest" name="UpdateSOIStatusRequest"></wsdl:input>
+			<wsdl:output message="tns:UpdateSOIStatusResponse" name="UpdateSOIStatusResponse"></wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="GetTrackingNumberAndProviderRequest">
+			<wsdl:input message="tns:GetTrackingNumberAndProviderRequest" name="GetTrackingNumberAndProviderRequest"></wsdl:input>
+			<wsdl:output message="tns:GetTrackingNumberAndProviderResponse" name="GetTrackingNumberAndProviderResponse"></wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="CreatePackageForWMSRequest">
+			<wsdl:input message="tns:CreatePackageForWMSRequest" name="CreatePackageForWMSRequest"></wsdl:input>
+			<wsdl:output message="tns:CreatePackageForWMSResponse" name="CreatePackageForWMSResponse"></wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+
+	<wsdl:binding name="ShippingSoapAdmin" type="tns:Shipping">
+		<soap:binding style="document"
+			transport="http://schemas.xmlsoap.org/soap/http" />
+
+		<wsdl:operation name="UpdateSOIStatus">
+			<soap:operation soapAction="UpdateSOIStatus" />
+			<wsdl:input name="UpdateSOIStatusRequest">
+				<soap:body use="literal" />
+				<soap:header message="tns:AuthenticationHeader" part="Authentication"
+					use="literal" />
+			</wsdl:input>
+			<wsdl:output name="UpdateSOIStatusResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="GetTrackingNumberAndProviderRequest">
+			<soap:operation soapAction="GetTrackingNumberAndProviderRequest" />
+			<wsdl:input name="GetTrackingNumberAndProviderRequest">
+				<soap:body use="literal" />
+				<soap:header message="tns:AuthenticationHeader" part="Authentication"
+					use="literal" />
+			</wsdl:input>
+			<wsdl:output name="GetTrackingNumberAndProviderResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="CreatePackageForWMSRequest">
+			<soap:operation soapAction="CreatePackageForWMSRequest" />
+			<wsdl:input name="CreatePackageForWMSRequest">
+				<soap:body use="literal" />
+				<soap:header message="tns:AuthenticationHeader" part="Authentication"
+					use="literal" />
+			</wsdl:input>
+			<wsdl:output name="CreatePackageForWMSResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+
+	<wsdl:service name="ShippingService">
+		<wsdl:port binding="tns:ShippingSoapAdmin" name="ShippingSoapAdmin">
+			<soap:address location="http://localhost:90/services/soap/" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<project name="PingPOS" default="PingPOS.copy.resources">
+  <property file="user.properties"/>
+  <target name="PingPOS.copy.resources" description="Push jsps and other static content to tomcat webapps folder">
+    <!-- Copy class files. -->
+    <copy todir="${tomcat.home}/webapps/ROOT/">
+      <fileset dir="PingPOSWeb/src/main/webapp">
+        <include name="**/*"/>
+        <exclude name="**/WEB-INF/**"/>
+        <exclude name="**/.svn/**"/>
+      </fileset>
+    </copy>
+  </target>
+  <target name="PingPOS.deploy.webapp" description="Copy the entire PingPOS webapp into tomcat directory">
+    <!-- Copy class files. -->
+    <copy todir="${tomcat.home}/webapps/ROOT/">
+      <fileset dir="PingPOSWeb/target/ValuecartWeb">
+        <include name="**/*"/>
+      </fileset>
+    </copy>
+  </target>
+</project>

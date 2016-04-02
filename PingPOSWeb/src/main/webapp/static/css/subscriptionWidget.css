@@ -1,0 +1,9 @@
+input{color:#737373;}
+input:focus{color:#000;}
+.nevr_miss{font-size:15px;color:#252525;font-weight:bold;}
+.never_red{color:#9d1f1f;}
+.mobile_box{width:175px;}
+.email_spc{padding:5px 0;}
+.chk_bttn{padding:0 0 15px; text-align:center;}
+.form-outer{overflow:hidden;width:980px;margin:31px auto 0 auto;}
+.cl{ clear: both; overflow: hidden; height:1px}
