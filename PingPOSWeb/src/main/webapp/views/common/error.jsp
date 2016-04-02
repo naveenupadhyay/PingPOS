@@ -20,8 +20,8 @@
 		</c:otherwise>
 	</c:choose>
 </title>
-<link href="${path.css('snapdeal/jqueryUi.css')}" rel="stylesheet" type="text/css" />
-<link href="${path.css('snapdeal/style.css')}" rel="stylesheet" type="text/css" />
+<link href="${path.css('walmart/jqueryUi.css')}" rel="stylesheet" type="text/css" />
+<link href="${path.css('walmart/style.css')}" rel="stylesheet" type="text/css" />
 <link rel="shortcut icon" href="${path.resources('img/icons/favicon.ico')}" type="image/x-icon" />
 <link rel=icon type=image/ico href="${path.resources('img/icons/favicon.ico')}" />
 <tiles:insertAttribute name="head" defaultValue="" />
