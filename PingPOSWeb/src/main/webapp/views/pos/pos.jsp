@@ -13,123 +13,48 @@
 
 		</div>
 
-<script type="text/javascript">
-$(document).ready(function() {
-	
-	$(".showorder").click(function(){
-		$("#orderDetails").show();	
-	})
-})
- 
-</script>
-
 		<div class="action">
-			
 			<div class="search no-left-border boxwidth">
-	
-					<input type="tel" pattern="^\d{4}-\d{3}-\d{4}$" class="form-control ui-autocomplete-input customernum" name="search" id="tele" value="" placeholder="Enter Customer Phone Number" autocomplete="off">
-				</div>
-					<a href="" id="new-person-btn" class="btn btn-primary btn-lg" title="New Customer"><span class="showorder">Pull order</span></a>	
+				<input type="tel" pattern="^\d{4}-\d{3}-\d{4}$" class="form-control ui-autocomplete-input customernum" name="search" id="tele" value="" placeholder="Enter Customer Phone Number" autocomplete="off">
+			</div>
+			<a href="#" id="new-person-btn" class="btn btn-primary btn-lg" title="Get Customer Order" onclick="getOrder()"><span class="">Pull order</span></a>	
 		</div>
-
-<div class="container-fluid" id="orderDetails"">
+<div class="container-fluid">
 		<div class="row manage-table">
 			<div class="panel panel-piluku">
 				<div class="panel-heading">
 					<h3 class="panel-title">
-						Your Order List:<span title="2 total items" class="badge bg-primary tip-left"></span>
+						Order List:<span id="orderCount" title="2 total items" class="badge bg-primary tip-left"></span>
 						<div class="panel-options custom">
 						</div>
 					</h3>
 				</div>
 				<div class="panel-body nopadding table_holder table-responsive">
 					<table class="table tablesorter table-hover" id="sortable_table">
-					<thead>
-						<tr>
-							<th class="leftmost">
-								<input type="checkbox" id="select_all"><label for="select_all"><span></span></label>
-							</th>
-								<th>SKU ID</th>
-								<th>Product Image</th>
-								<th>Item Description</th>
-								<th>Cost Price</th>
-								<th>Selling Price</th>
-								<th>Quantity</th>
-								<th>Delete</th>
-	
+						<thead>
+							<tr>
+								<th class="leftmost">
+									<input type="checkbox" id="select_all"><label for="select_all"><span></span></label>
+								</th>
+									<th>SKU ID</th>
+									<th>Product Image</th>
+									<th>Item Description</th>
+									<th>Item Price</th>
+									<th>Line Price</th>
+									<th>Quantity</th>
 							</tr>
-							</thead>
-							<tbody>
-							<tr style="cursor: pointer;">
-								<td><input type="checkbox" id="item_1" value="1"><label for="item_1"><span></span></label></td>
-								<td>12387</td>
-								<td><img src="" width="50" height="50" alt="" class="prodimg"></td>
-								<td>Combining the suction power of an upright with the agility of a cordless</td>
-								<td>$347.00</td>
-								<td>$320.00</td>
-								<td>2</td>
-								<td>Delete</td>
-							</tr>
-														<tr style="cursor: pointer;">
-								<td><input type="checkbox" id="item_1" value="1"><label for="item_1"><span></span></label></td>
-								<td>12387</td>
-								<td><img src="" width="50" height="50" alt="" class="prodimg"></td>
-								<td>Combining the suction power of an upright with the agility of a cordless</td>
-								<td>$347.00</td>
-								<td>$320.00</td>
-								<td>2</td>
-								<td>Delete</td>
-							</tr>
-														<tr style="cursor: pointer;">
-								<td><input type="checkbox" id="item_1" value="1"><label for="item_1"><span></span></label></td>
-								<td>12387</td>
-								<td><img src="" width="50" height="50" alt="" class="prodimg"></td>
-								<td>Combining the suction power of an upright with the agility of a cordless</td>
-								<td>$347.00</td>
-								<td>$320.00</td>
-								<td>2</td>
-								<td>Delete</td>
-							</tr>
-														<tr style="cursor: pointer;">
-								<td><input type="checkbox" id="item_1" value="1"><label for="item_1"><span></span></label></td>
-								<td>12387</td>
-								<td><img src="" width="50" height="50" alt="" class="prodimg"></td>
-								<td>Combining the suction power of an upright with the agility of a cordless</td>
-								<td>$347.00</td>
-								<td>$320.00</td>
-								<td>2</td>
-								<td>Delete</td>
-							</tr>
-														<tr style="cursor: pointer;">
-								<td><input type="checkbox" id="item_1" value="1"><label for="item_1"><span></span></label></td>
-								<td>12387</td>
-								<td><img src="" width="50" height="50" alt="" class="prodimg"></td>
-								<td>Combining the suction power of an upright with the agility of a cordless</td>
-								<td>$347.00</td>
-								<td>$320.00</td>
-								<td>2</td>
-								<td>Delete</td>
-							</tr>
-
-
-
-								</tbody></table>			
-				</div>	
-
-
-				
+						</thead>
+						<tbody id="displayCart">
+						</tbody>
+					</table>	
+					<div><a href="" id="new-person-btn" class="btn btn-primary btn-lg submitorderbtn" title="New Customer"><span class="">Submit Order</span></a> </div>
+				</div>
 			</div>
 		</div>
 	</div>
-
-
-
-
-
-		<div class="footer">
-			
-zadasdsds
-
-		</div>
+	<a href="#" id="new-person-btn" class="btn btn-primary btn-lg" title="Get Customer Order" onclick="postOrder()"><span class="">Pull order</span></a>	
+		<link rel="stylesheet" type="text/css" href="css/all.css">
+		<script src="js/jquery.js" type="text/javascript" language="javascript" charset="UTF-8"></script>
+		<script src="js/pos.js"></script>
 	</body>
 </html>

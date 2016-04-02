@@ -15990,7 +15990,6 @@ body {
     width: 170px;
 }
 .header img {
-    height: 100%;
     width: 100%;
 }
 
@@ -15999,7 +15998,6 @@ body {
 height:70px;
 width: 100%;
 padding: 10px;
-position: absolute;
 bottom: 0;
 background-color: #373942;
 }
@@ -16027,5 +16025,11 @@ input.customernum {
 	height:50px;
 	border: 1px solid #ccc;
 	display: block;
+}
+
+.btn.btn-primary.btn-lg.submitorderbtn {
+    background: orange none repeat scroll 0 0;
+    float: right;
+    margin: 20px;
 }
 
