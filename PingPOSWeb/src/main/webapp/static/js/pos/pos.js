@@ -79,7 +79,7 @@ function postOrder(){
 		itemDetails.push(itemDetail);
 		}
 	var submitOrderRequestJSON = {
-									"notification_count":1
+									"notification_count":1, 
 									"customer_id":customer_id,
 									"itemCount":itemCount,
 									"items":itemDetails,
@@ -89,7 +89,7 @@ function postOrder(){
 	var settings = {
 		  "async": true,
 		  "crossDomain": true,
-		  "url": "http://10.4.2.19:80/saveOrderDetails",
+		  "url": "http://localhost:80/saveOrderDetails",
 		  "method": "POST",
 		  "headers": {
 			"content-type": "application/json",
