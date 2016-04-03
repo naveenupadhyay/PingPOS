@@ -44,8 +44,8 @@ function getOrderCallBack(response){
 				"<td><img src="+imgUrl+" width='50' height='50' alt='' class='prodimg'></td>"+
 				"<td>"+itemName+"</td>"+
 				"<td>"+itemPrice+"</td>"+
-				"<td>"+itemLinePrice+"</td>"+
 				"<td>"+itemQuantity+"</td>"+
+				"<td>"+itemLinePrice+"</td>"+
 				"</tr>";
 	}
 	console.log(html);
@@ -53,11 +53,39 @@ function getOrderCallBack(response){
 	console.log("Items : " + items);
 }
 function postOrder(){
-	var payload = {    
-			"json" : localStorage.getItem("FullCartResponse"), 
-			"mobile" :"9886902226"
+	var response = localStorage.getItem("FullCartResponse");
+	response = JSON.parse(response);
+	var items = response["items"];
+	var itemDetails = [];
+	var customer_id = response["cart"]["customerId"];
+	var itemCount = response["cart"]["itemCount"];
+	for(i=0;i<items.length;i++){
+		var skuId = items[i]["productId"];
+		var imgUrl = items[i]["assets"]["primary"][0]["100"];
+		var product_url = items[i]["marketingAttributes"]["url_text_key"];
+		var itemName = items[i]['name'];
+		var itemPrice = items[i]["price"];
+		var itemLinePrice = items[i]['linePrice'];
+		var itemQuantity = items[i]['quantity'];
+		var itemDetail = {
+							"productId":skuId,
+							"img_url":imgUrl,
+							"product_url":"http://www.walmart.com"+product_url,
+							"name":itemName,
+							"price":itemPrice,
+							"linePrice":itemLinePrice,
+							"quantity":itemQuantity
+						 }
+		itemDetails.push(itemDetail);
 		}
-	console.log("Payload is : " + JSON.stringify(payload));
+	var submitOrderRequestJSON = {
+									"notification_count":1
+									"customer_id":customer_id,
+									"itemCount":itemCount,
+									"items":itemDetails,
+									"mobile" :"9886902226"
+								 }
+	console.log("Payload is : " + JSON.stringify(submitOrderRequestJSON));
 	var settings = {
 		  "async": true,
 		  "crossDomain": true,
@@ -69,7 +97,7 @@ function postOrder(){
 			"postman-token": "a8bcffde-56f3-41e7-cd81-ec0c34c2d4df"
 		  },
 		  "processData": false,
-		  "data": JSON.stringify(payload)
+		  "data": JSON.stringify(submitOrderRequestJSON)
 }
 
 $.ajax(settings).done(function (response) {

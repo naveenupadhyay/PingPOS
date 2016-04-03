@@ -16033,3 +16033,11 @@ input.customernum {
     margin: 20px;
 }
 
+.msgthankyou {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    color: green;
+    margin: 20px;
+    padding: 20px;
+}
+
