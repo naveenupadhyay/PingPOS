@@ -48,8 +48,10 @@ public class StartupDaoImpl implements IStartupDao {
 		Query query = sessionFactory.getCurrentSession().createQuery("from OrderDetails where mobile=:mobile");
 		query.setParameter("mobile", mobile);
 		List<OrderDetails> orders = query.list();
-		
-		return orders.get(orders.size()-1).getJson();
+		if(orders.size() >0)
+			return orders.get(orders.size()-1).getJson();
+		else
+			return null;
 	}
 
    

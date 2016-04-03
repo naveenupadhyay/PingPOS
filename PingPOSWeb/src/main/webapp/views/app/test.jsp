@@ -5,7 +5,7 @@
 <script type="text/javascript" >
 if (!!window.EventSource) {
 	   console.log("Event source available");
-	   var source = new EventSource('/app/systemalert');
+	   var source = new EventSource('/app/systemalert/9886902226');
 
 	   source.addEventListener('message', function(e) {
 	        console.log(e.data);

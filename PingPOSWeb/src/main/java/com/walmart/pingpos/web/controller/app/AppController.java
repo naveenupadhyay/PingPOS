@@ -40,7 +40,7 @@ public class AppController {
                      Thread.sleep(10000);
                 String order =     dao.getOrderDetails(mobile); 
                 if(order !=null)
-                	returnData += 1;
+                	returnData += "NOTIFY";
              } catch (InterruptedException e) {
                      e.printStackTrace();
              }   

@@ -3,7 +3,7 @@
 <head>
 <link href="${path.css('walmart/all.css')}" rel="stylesheet"
 	type="text/css" />
-<script type="text/javascript" src="${path.js('jquery/jquery.all.min.js')}"></script>
+<script type="text/javascript" src="${path.js('pos/Jquery.js')}"></script>
 <script type="text/javascript" src="${path.js('pos/pos.js')}"></script>
 </head>
 	<body>	
