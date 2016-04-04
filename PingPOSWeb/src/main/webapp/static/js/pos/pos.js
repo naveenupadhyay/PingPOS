@@ -78,18 +78,21 @@ function postOrder(){
 						 }
 		itemDetails.push(itemDetail);
 		}
-	var submitOrderRequestJSON = {
-									"notification_count":1
+	var submitOrderRequest = {
+									"notification_count":1,
 									"customer_id":customer_id,
 									"itemCount":itemCount,
 									"items":itemDetails,
-									"mobile" :"9886902226"
+								 }
+	var submitOrderRequestJSON = {
+									"json":JSON.stringify(submitOrderRequest),
+									"mobile" :"9991119991"
 								 }
 	console.log("Payload is : " + JSON.stringify(submitOrderRequestJSON));
 	var settings = {
 		  "async": true,
 		  "crossDomain": true,
-		  "url": "http://10.4.2.19:80/saveOrderDetails",
+		  "url": "http://truckdepo.in:80/saveOrderDetails",
 		  "method": "POST",
 		  "headers": {
 			"content-type": "application/json",
