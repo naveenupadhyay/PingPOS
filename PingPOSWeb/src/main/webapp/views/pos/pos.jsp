@@ -8,18 +8,19 @@
 </head>
 	<body>	
 		<div class="header">
-
-			
 				<div class="logo-head"><img src="${path.resources('img/header_logo.png')}" alt=""></div>
-
 		</div>
 
 		<div class="action">
 			<div class="search no-left-border boxwidth">
 				<input type="tel" pattern="^\d{4}-\d{3}-\d{4}$" class="form-control ui-autocomplete-input customernum" name="search" id="tele" value="" placeholder="Enter Customer Phone Number" autocomplete="off">
 			</div>
-			<a href="#" id="new-person-btn" class="btn btn-primary btn-lg" title="Get Customer Order" onclick="getOrder()"><span class="">Pull order</span></a>	
+			<a href="#" id="btn-pull-order" class="btn btn-primary btn-lg" title="Get Customer Order" onclick="getOrder()"><span class="">Pull order</span></a>	
 		</div>
+		<div class="msgthankyou">
+        <p>Order for Mobile number <span> <strong>9343927070</strong></span> has processed.</p> <br>
+            <div><a href="#" id="btn-process-order" class="btn btn-primary btn-lg processotherorder" title="New Customer"><span class="">Process another Order</span></a> </div>
+        </div>
 	<div class="container-fluid">
 			<div class="row manage-table">
 				<div class="panel panel-piluku">
@@ -53,9 +54,28 @@
 			</div>
 	</div>
 	<div>
-		<a href="#" id="new-person-btn" class="btn btn-primary btn-lg submitorderbtn" onclick="postOrder()" title="Submit Order">
+		<a href="#" id="btn-submit-order" class="btn btn-primary btn-lg submitorderbtn" onclick="postOrder()" title="Submit Order">
 			<span class="">Submit Order</span>
 		</a> 
 	</div>
-	</body>
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<script src="js/jquery.js" type="text/javascript" language="javascript" charset="UTF-8"></script>
+	<script src="js/pos.js"></script>
+        <script>
+	$("#btn-process-order").click( function(){
+		$(".msgthankyou").hide();
+		$(".container-fluid").hide();
+	});
+	$("#btn-pull-order").click( function(){
+		
+		$(".container-fluid").show();
+		$("#btn-submit-order").parent("div").show();
+	});
+	$("#btn-submit-order").on("click", function(){
+		$(this).parent("div").hide()
+		$(".msgthankyou").show();
+		$(".container-fluid").hide();
+	});
+</script>
+</body>
 </html>
