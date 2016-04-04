@@ -47,9 +47,9 @@
 <link media="all"
 	href="${path.css('app/k2-_2b912b3a-9420-4168-b657-7abb9f99260c.css')}"
 	rel="stylesheet">
-<script src="{path.js('app/main.js')}" async="">
+<script src="${path.js('app/main.js')}" async="">
                   </script>
-<script src="{path.js('app/main/app.js')}" async="">
+<script src="${path.js('app/main/app.js')}" async="">
                   </script>
                   
 <script src=" ${path.js('app/latest.js')}" async=""></script>
@@ -7197,7 +7197,7 @@ if (!!window.EventSource) {
 	   source.addEventListener('message', function(e) {
 	        console.log(e.data);
 	        if(e.data.includes("NOTIFY"))
-	          showNotification();
+	         $(".notification").show();
 	        console.log("logged data printed");
 	   });
 
