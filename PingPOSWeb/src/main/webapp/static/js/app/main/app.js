@@ -116,8 +116,8 @@ function processOrder(response){
 			  "<div class='pdsc'>"+name+"</div>"+
 			  "<div>Share and earn referal bonus<span class='tc'>*</span></div>"+
 				"<div>"+
-					"<div class='facebook icon'> <i class='fa fa-facebook'> </i> <span class='labelfb'><a href='http://www.facebook.com/sharer/sharer.php/?u='"+product_url+"'>Facebook</a></span></div>"+
-					"<div class='twitter icon'> <i class='fa fa-twitter'> </i> <span class='labeltw'><a href='http://twitter.com/tweet/intent?u='"+product_url+"'>Twitter</span></div>"+
+					"<div class='facebook icon'> <i class='fa fa-facebook'> </i> <span class='labelfb'><a href='http://www.facebook.com/sharer/sharer.php/?u="+product_url+"'>Facebook</a></span></div>"+
+					"<div class='twitter icon'> <i class='fa fa-twitter'> </i> <span class='labeltw'><a href='http://twitter.com/tweet/intent?u="+product_url+"'>Twitter</span></div>"+
 				"</div>"+
               "</div>"+
               "</div>";
