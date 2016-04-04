@@ -106,6 +106,7 @@ function processOrder(response){
 		var product_url=items[i]["product_url"];
 		var name = items[i]["name"];
 		var price = items[i]["price"];
+		product_url = product_url + "?refId=100002509838433";
 		html+="<div class='item-list-wrapper'>"+
 				"<div class='product-image'>"+
 					"<img class='' width='120' height='120' alt='' src="+img_url+" />"+
@@ -115,7 +116,7 @@ function processOrder(response){
 			  "<div class='pdsc'>"+name+"</div>"+
 			  "<div>Share and earn referal bonus<span class='tc'>*</span></div>"+
 				"<div>"+
-					"<div class='facebook icon'> <i class='fa fa-facebook'> </i> <span class='labelfb'><a href='http://www.facebook.com/sharer/sharer.php/?u='"+product_url+"?refId=100002509838433'>Facebook</a></span></div>"+
+					"<div class='facebook icon'> <i class='fa fa-facebook'> </i> <span class='labelfb'><a href='http://www.facebook.com/sharer/sharer.php/?u='"+product_url+"'>Facebook</a></span></div>"+
 					"<div class='twitter icon'> <i class='fa fa-twitter'> </i> <span class='labeltw'><a href='http://twitter.com/tweet/intent?u='"+product_url+"'>Twitter</span></div>"+
 				"</div>"+
               "</div>"+
