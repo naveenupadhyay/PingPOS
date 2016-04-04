@@ -42,7 +42,7 @@ function pullOrder(){
 	  console.log(response);
 	});
 }
-function processOrder(){
+function processOrder(response){
 	$('.notification').click( function(){
 		$(".homepage-middle-zone").hide();
 	});
