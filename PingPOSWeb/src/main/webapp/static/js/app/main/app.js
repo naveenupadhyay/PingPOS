@@ -99,7 +99,7 @@ function processOrder(response){
 	console.log(response);
 	var items = response["json"]["items"];
 	for(i=0;i<items.length;i++){
-		var imgUrl = items[i]["img_url"];
+		var img_url = items[i]["img_url"];
 		var product_url=items[i]["product_url"];
 		var name = items[i]["name"];
 		var price = items[i]["price"];
