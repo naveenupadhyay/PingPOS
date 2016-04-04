@@ -619,11 +619,8 @@
 										</div>
 										<div
 											class="header-mobile-other header-storefinder hide-content-l">
-<<<<<<< HEAD
-											<a href="" class="notification" onclick="pullOrder()">1</a>
-=======
-											<a href="" class="notification" style="display:none">1</a>
->>>>>>> d330d560adac23f041b8a1ad183774cae3d2dd53
+											<a href="" class="notification" style="display:none" onclick="pullOrder()">1</a>
+
 										</div>
 									</div>
 									<div class="arrange-fit header-meta-cell header-meta-cell-last">
