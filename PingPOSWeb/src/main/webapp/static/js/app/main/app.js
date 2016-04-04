@@ -1,6 +1,7 @@
 function showNotification() {
 	
 	//code to show or hide notification goes here..
+	$.(".notificaiton").show();
 }
 
 function fetchOrderJson(){
