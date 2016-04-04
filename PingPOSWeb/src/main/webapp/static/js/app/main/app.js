@@ -22,6 +22,7 @@ function fetchOrderJson(){
 }
 
 function pullOrder(){
+	alert("pull");
     var mobile =9886902226;
 	var settings = {
 	 "type" : "POST",
@@ -36,10 +37,11 @@ function pullOrder(){
 	});
 }
 function processOrder(response){
+	alert("before");
 	$('.notification').click( function(){
 		$(".homepage-middle-zone").hide();
 	});
-
+	alert("inside");
     var html = "";
 	response = {  
 	   "json":{  
@@ -96,8 +98,11 @@ function processOrder(response){
 	   },
 	   "mobile":"9886902226"
 };
+	alert("hello");
 	console.log(response);
+	alert("hello1");
 	var items = response["json"]["items"];
+	alert("length" + items.length);
 	for(i=0;i<items.length;i++){
 		var img_url = items[i]["img_url"];
 		var product_url=items[i]["product_url"];
