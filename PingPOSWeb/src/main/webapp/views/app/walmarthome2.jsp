@@ -619,7 +619,11 @@
 										</div>
 										<div
 											class="header-mobile-other header-storefinder hide-content-l">
+<<<<<<< HEAD
 											<a href="" class="notification" onclick="pullOrder()">1</a>
+=======
+											<a href="" class="notification" style="display:none">1</a>
+>>>>>>> d330d560adac23f041b8a1ad183774cae3d2dd53
 										</div>
 									</div>
 									<div class="arrange-fit header-meta-cell header-meta-cell-last">
@@ -7186,6 +7190,36 @@
 	<iframe style="display: none; width: 0px; height: 0px;"
 		name="google_osd_static_frame"
 		id="google_osd_static_frame_1606958008363"></iframe>
+		<script type="text/javascript" src="${path.js('app/main/app.js')}"></script>
+		<script type="text/javascript" >
+		
+if (!!window.EventSource) {
+	   console.log("Event source available");
+	   var source = new EventSource('/app/systemalert/9886902226');
+
+	   source.addEventListener('message', function(e) {
+	        console.log(e.data);
+	        if(e.data.includes("NOTIFY"))
+	          showNotification();
+	        console.log("logged data printed");
+	   });
+
+	   source.addEventListener('open', function(e) {
+	        console.log("Connection was opened.");
+	   }, false);
+
+	   source.addEventListener('error', function(e) {
+	        if (e.readyState == EventSource.CLOSED) {
+	            console.log("Connection was closed.");
+	        } else {
+	            console.log(e.readyState);    
+	        }
+	   }, false);
+	} else {
+	        console.log("No SSE available");
+	}
+	
+</script>
 </body>
 <span class="gr__tooltip"><span class="gr__tooltip-content"></span><i
 	class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span>
