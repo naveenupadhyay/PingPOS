@@ -1,5 +1,7 @@
 package com.walmart.pingpos.web.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -17,6 +19,7 @@ public class PingPOSWebServiceController {
 
 	@Autowired
 	IStartupDao dao;
+	  private static final Logger       LOG = LoggerFactory.getLogger(PingPOSWebServiceController.class);
 
 	@RequestMapping("saveOrderDetails")
 	@ResponseBody 
@@ -31,6 +34,8 @@ public class PingPOSWebServiceController {
 		GetOrderDetailsResponse response = new GetOrderDetailsResponse();
 		String json = dao.getOrderDetails(mobile);
 		response.setJson(json);
+		
+		LOG.info("json is {}",json);
 		return response;
 	}
 }
