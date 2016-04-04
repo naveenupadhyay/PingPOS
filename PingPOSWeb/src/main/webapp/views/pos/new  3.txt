@@ -1,0 +1,7 @@
+PingPOSWeb/src/main/webapp/static/css/walmart/all.css PingPOSWeb/src/main/webapp/views/pos/pos.jsp PingPOSWeb/src/main/webapp/static/js/pos/
+
+<div><a href="" id="new-person-btn" class="btn btn-primary btn-lg submitorderbtn" title="New Customer"><span class="">Submit Order</span></a> </div>
+        <div class="msgthankyou">
+     <p>Order for Mobile number <span> <strong>9343927070</strong></span> has processed.</p> <br>
+            <div><a href="" id="new-person-btn" class="btn btn-primary btn-lg processotherorder" title="New Customer"><span class="">Process another Order</span></a> </div>
+ </div> 

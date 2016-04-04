@@ -4,10 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.walmart.pingpos.db.dao.IStartupDao;
-import com.walmart.pingpos.model.request.GetOrderDetailsRequest;
 import com.walmart.pingpos.model.request.SaveOrderDetailsRequest;
 import com.walmart.pingpos.model.response.GetOrderDetailsResponse;
 import com.webapputils.base.model.common.ServiceResponse;
@@ -26,10 +26,10 @@ public class PingPOSWebServiceController {
 		return response;
 	}
 
-	@RequestMapping("getOrderDetails")
-	@ResponseBody GetOrderDetailsResponse getOrderDetails(@RequestBody GetOrderDetailsRequest request){
+	@RequestMapping(value = "getOrderDetails", produces = "application/json")
+	@ResponseBody GetOrderDetailsResponse getOrderDetails(@RequestParam String mobile){
 		GetOrderDetailsResponse response = new GetOrderDetailsResponse();
-		String json = dao.getOrderDetails(request.getMobile());
+		String json = dao.getOrderDetails(mobile);
 		response.setJson(json);
 		return response;
 	}

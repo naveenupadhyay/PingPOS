@@ -78,8 +78,10 @@ function postOrder(){
 						 }
 		itemDetails.push(itemDetail);
 		}
-	var submitOrderRequest = {
-									"notification_count":1,
+
+	var submitOrderRequestJSON = {
+									"notification_count":1, 
+
 									"customer_id":customer_id,
 									"itemCount":itemCount,
 									"items":itemDetails,
