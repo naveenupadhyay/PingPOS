@@ -49,6 +49,8 @@
 	rel="stylesheet">
 <script src="{path.js('app/main.js')}" async="">
                   </script>
+<script src="{path.js('app/main/app.js')}" async="">
+                  </script>
                   
 <script src=" ${path.js('app/latest.js')}" async=""></script>
 <script src="${path.js('app/fqp0lia.js')}" charset="utf-8" async=""></script>
@@ -617,7 +619,7 @@
 										</div>
 										<div
 											class="header-mobile-other header-storefinder hide-content-l">
-											<a href="" class="notification">1</a>
+											<a href="" class="notification" onclick="pullOrder()">1</a>
 										</div>
 									</div>
 									<div class="arrange-fit header-meta-cell header-meta-cell-last">
@@ -5255,6 +5257,9 @@
                                        </script>
 				</div>
 			</div>
+			
+			<tbody id="displayCart">
+			</tbody>
 			<div class="homepage-middle-zones">
 				<div class="homepage-middle-left"></div>
 				<div class="homepage-middle ">
