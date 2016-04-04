@@ -1,7 +1,7 @@
 function showNotification() {
 	
 	//code to show or hide notification goes here..
-	$.(".notificaiton").show();
+	$(".notification").show();
 }
 
 function fetchOrderJson(){
@@ -14,7 +14,7 @@ function fetchOrderJson(){
 				data : {'mobile' : mobile},
 				success : function(data) {
 					console.log("received response");
-					console.log(data);
+					console.log(data)
 					// code to use the json received and paint the ui goes here.
 				},
 			});
