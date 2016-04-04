@@ -1011,7 +1011,7 @@
 														data-uid="LHN-2" data-asset-id="3799270"
 														title="Electronics &amp; Office"> <img
 														alt="Electronics &amp; Office"
-														src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+														src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 														data-cornerad-img="//i5.walmartimages.com/dfw/4ff9c6c9-514c/k2-_ad2fb79d-32af-445d-95a9-9b92da610616.v1.png"
 														height="460" width="207"></a>
 												</div>
@@ -1230,7 +1230,7 @@
 														href="http://www.walmart.com/browse/movies-tv/star-wars-movies/4096_1229475?sort=new"
 														data-uid="LHN-3" data-asset-id="3801081" title="Star Wars">
 														<img alt="Star Wars"
-														src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+														src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 														data-cornerad-img="//i5.walmartimages.com/dfw/4ff9c6c9-59fb/k2-_9a1afe17-d692-42a0-82b3-fcacb41e9d2e.v1.png"
 														height="460" width="207">
 													</a>
@@ -1576,7 +1576,7 @@
 														data-uid="LHN-4" data-asset-id="3805853"
 														title="Home, Furniture &amp; Patio"> <img
 														alt="Home, Furniture &amp; Patio"
-														src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+														src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 														data-cornerad-img="//i5.walmartimages.com/dfw/4ff9c6c9-e851/k2-_3936ea9a-2b7e-4e3f-af9e-4435785b6bf1.v1.png"
 														height="460" width="207"></a>
 												</div>
@@ -1929,7 +1929,7 @@
 														data-uid="LHN-5" data-asset-id="3798127"
 														title="Patio Collections"> <img
 														alt="Patio Collections"
-														src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+														src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 														data-cornerad-img="//i5.walmartimages.com/dfw/4ff9c6c9-2af7/k2-_3df40302-e1d1-402c-8cbb-7568d5c8c311.v1.png"
 														height="460" width="207"></a>
 												</div>
@@ -2286,7 +2286,7 @@
 														data-uid="LHN-6" data-asset-id="3795110"
 														title="Clothing, Shoes &amp; Jewelry"> <img
 														alt="Clothing, Shoes &amp; Jewelry"
-														src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+														src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 														data-cornerad-img="//i5.walmartimages.com/dfw/4ff9c6c9-38ab/k2-_93f83bc5-2577-4d2b-840b-61deb87d4dc2.v1.png"
 														height="460" width="207"></a>
 												</div>
@@ -2611,7 +2611,7 @@
 														data-uid="LHN-7" data-asset-id="3805400"
 														title="Baby &amp; Toddler"> <img
 														alt="Baby &amp; Toddler"
-														src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+														src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 														data-cornerad-img="//i5.walmartimages.com/dfw/4ff9c6c9-10b6/k2-_28979bee-e0e5-4b0d-96e2-724b6cf209b6.v1.png"
 														height="460" width="207"></a>
 												</div>
@@ -2934,7 +2934,7 @@
 														data-uid="LHN-8" data-asset-id="3806220"
 														title="Melissa &amp; Doug"> <img
 														alt="Melissa &amp; Doug"
-														src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+														src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 														data-cornerad-img="//i5.walmartimages.com/dfw/4ff9c6c9-256c/k2-_ffa1f90c-50e8-4b06-a075-2555b4f8ed5a.v1.png"
 														height="460" width="207"></a>
 												</div>
@@ -3253,7 +3253,7 @@
 														data-uid="LHN-9" data-asset-id="3803141"
 														title="Food, Household &amp; Pets"> <img
 														alt="Food, Household &amp; Pets"
-														src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+														src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 														data-cornerad-img="//i5.walmartimages.com/dfw/4ff9c6c9-9e31/k2-_abdedce1-c23a-4226-bcbb-c9256f4bc42d.v1.png"
 														height="460" width="207"></a>
 												</div>
@@ -3582,7 +3582,7 @@
 														href="http://www.walmart.com/browse/kylie-jenner-collection/0/0/?_refineresult=true&amp;_be_shelf_id=4504&amp;search_sort=100&amp;facet=shelf_id:4504"
 														data-uid="LHN-10" data-asset-id="3798531" title="Shop Now">
 														<img alt="Shop Now"
-														src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+														src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 														data-cornerad-img="//i5.walmartimages.com/dfw/4ff9c6c9-b33d/k2-_123f9e73-4a9c-4b27-a9eb-d203557751f5.v1.jpg"
 														height="460" width="207">
 													</a>
@@ -3912,7 +3912,7 @@
 														data-uid="LHN-11" data-asset-id="3804768"
 														title="Sports, Fitness &amp; Outdoors"> <img
 														alt="Sports, Fitness &amp; Outdoors"
-														src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+														src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 														data-cornerad-img="//i5.walmartimages.com/dfw/4ff9c6c9-5284/k2-_acb1dd34-0c8b-4e4f-be13-da76957d8016.v1.png"
 														height="460" width="207"></a>
 												</div>
@@ -4272,7 +4272,7 @@
 														href="http://www.walmart.com/browse/auto-tires/car-truck-tires/91083_1077064_1063465?grid=false"
 														data-uid="LHN-12" data-asset-id="3782354"
 														title="Find Tires "> <img alt="Find Tires "
-														src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+														src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 														data-cornerad-img="//i5.walmartimages.com/dfw/4ff9c6c9-528b/k2-_90680d01-6c41-4910-8517-1f18b2b26feb.v1.png"
 														height="460" width="207"></a>
 												</div>
@@ -4583,7 +4583,7 @@
 													<a href="http://photos.walmart.com/walmart/welcome"
 														data-uid="LHN-13" data-asset-id="3801716"
 														title="Rollbacks"> <img alt="Rollbacks"
-														src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+														src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 														data-cornerad-img="//i5.walmartimages.com/dfw/4ff9c6c9-7582/k2-_6908a087-476f-4b15-ab09-79242a947d93.v1.png"
 														height="460" width="207"></a>
 												</div>
@@ -4856,7 +4856,7 @@
 														data-uid="LHN-14" data-asset-id="3805489"
 														title="Crafts &amp; Party"> <img
 														alt="Crafts &amp; Party"
-														src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+														src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 														data-cornerad-img="//i5.walmartimages.com/dfw/4ff9c6c9-3345/k2-_263dc979-b25b-4b18-9022-ba9d6ab06357.v1.png"
 														height="460" width="207"></a>
 												</div>
@@ -5187,7 +5187,7 @@
 										style="opacity: 1; width: 8624px; transform: translate3d(-6160px, 0px, 0px);"
 										class="slick-track">
 										<img class="img-hide-alt" alt="Travel Systems"
-											src="${path.resources('img/banner1.jpg')}" height="300"
+											src="${path.resources('img/app/banner1.jpg')}" height="300"
 											width="1364">
 									</div>
 								</div>
@@ -5301,7 +5301,7 @@
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt
                                                                      "
-															src="${path.resources('img/k2-_59c4e102-75f0-4e16-bbad-b2c6586a88a4.jpg')}"
+															src="${path.resources('img/app/k2-_59c4e102-75f0-4e16-bbad-b2c6586a88a4.jpg')}"
 															alt="TracFone LG Sunrise Teenage Mutant Ninja Turtles Prepaid Smartphone"
 															height="144" width="144">
 															<div class="Tile-content">
@@ -5374,7 +5374,7 @@
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt
                                                                      "
-															src="${path.resources('img/k2-_1a328da1-57e0-476e-a1f4-0e1f4f7c79b2.jpg')}"
+															src="${path.resources('img/app/k2-_1a328da1-57e0-476e-a1f4-0e1f4f7c79b2.jpg')}"
 															alt="Curve Cologne Spray for Men, 2.5 fl oz" height="144"
 															width="144">
 															<div class="Tile-content">
@@ -5453,7 +5453,7 @@
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt
                                                                      "
-															src="${path.resources('img/k2-_9dcc2649-9c15-4ac7-b07c-658bb3056b81.jpg')}"
+															src="${path.resources('img/app/k2-_9dcc2649-9c15-4ac7-b07c-658bb3056b81.jpg')}"
 															alt="Tracfone Motorola E 3G Android Prepaid Smartphone"
 															height="144" width="144">
 															<div class="Tile-content">
@@ -5520,7 +5520,7 @@
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt
                                                                      "
-															src="${path.resources('img/k2-_ea55236d-c5bd-467c-bc69-b12173da4874.jpg')}"
+															src="${path.resources('img/app/k2-_ea55236d-c5bd-467c-bc69-b12173da4874.jpg')}"
 															alt="TracFone LG Lucky Android Prepaid Smartphone"
 															height="144" width="144">
 															<div class="Tile-content">
@@ -5589,7 +5589,7 @@
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt
                                                                      "
-															src="${path.resources('img/k2-_7a065a75-6fe2-410f-beca-bbe61e3ddd2c.jpg')}"
+															src="${path.resources('img/app/k2-_7a065a75-6fe2-410f-beca-bbe61e3ddd2c.jpg')}"
 															alt="Nerf N-Strike Elite Centurion Blaster" height="144"
 															width="144">
 															<div class="Tile-content">
@@ -5663,7 +5663,7 @@
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt
                                                                      "
-															src="${path.resources('img/k2-_04b4eff1-2a1f-466a-8a57-d64f98bff35a.jpg')}"
+															src="${path.resources('img/app/k2-_04b4eff1-2a1f-466a-8a57-d64f98bff35a.jpg')}"
 															alt="The Game of Life" height="144" width="144">
 															<div class="Tile-content">
 																<div class="Tile-priceContent">
@@ -5716,7 +5716,7 @@
 																</div>
 															</div>
 													</div> <img
-													src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+													src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 													data-beacon-src="//beam.hlserve.com/beacon?hlpt=H&amp;fid=96&amp;ev=1&amp;pageguid=__pageguid__&amp;tax=&amp;rank=5&amp;ic_strat=2&amp;creative=__creative__&amp;searchterms=&amp;cv=gW1Gi5YlPAt%2bMV7pL%2fmPZA%3d%3d&amp;hl_qs=%2fbL0WFRyrmitWoloE2bh%2fqiVPB6yb1UnjoQpKT1xxaq%2fn4SZbIA52z9Iiz%2fIua77xXYXAvpob9IcJLDUAl%2fgGJXHIDede9SmKOcZOKd58pUZgpH610ZePMHXldbaIkhw7dqZEDwsDNh3%2f8E1EQDWujnGsgy%2bmelYG5f06KXHxSM7TxX6MqFOBF6zbQrhhXvr7z7c1%2fhALdJFx5463LARLr1vpOPONCHZvrNiGxbrUdgfG7U3%2bUD7RvEyCO9zLUoc4XAXH4Jjxx%2fyNX5HVyZ7c%2fL0jWsX3%2bwnVEma4n9M4nt5KnFtkZ2KCt%2blXC%2fMi5CrLfjzjd5z9S5cwvTf1mF5OFdwS%2bmHtlM9F4oZmDvvdc5h5yWafSWq%2bVK6bQMVYqUdMU08UiomkgliUajsJAXFzyiaa08QNiXc1j6RgaGKoK%2bsHVE0EKrjZs%2bILCDNaeS2HGkea0Z6O0lW9rDVIPMJrLRvgPuGzS4TtU%2fkwfG6UhmbxZGLhRCCso1SQGCzVcO91UH6%2fN2GlSVdrxkWCBnIX47J4om%2fPj77tpt4oCZHmhyvhGgg5UJR8hWdEX5%2bv6Wg&amp;pid=__pid__&amp;bd=1459468800&amp;noauction=1&amp;cuserid=&amp;platform=__pfm__&amp;action=imp&amp;puserid=__puserid__"
 													data-triggered="0"
 													class="js-ad-impression-beacon sponsored-products-imp-beacon hide-content">
@@ -5737,7 +5737,7 @@
 														<div class="Tile-flags"></div>
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt"
-															src="${path.resources('img/k2-_c4fd7269-a6a1-4ecf-8627-8c20c7650e8b.jpg')}"
+															src="${path.resources('img/app/k2-_c4fd7269-a6a1-4ecf-8627-8c20c7650e8b.jpg')}"
 															alt="Sorry! 2013 Edition Game" height="144" width="144">
 															<div class="Tile-content">
 																<div class="Tile-priceContent">
@@ -5791,7 +5791,7 @@
 																</div>
 															</div>
 													</div> <img
-													src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+													src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 													data-beacon-src="//beam.hlserve.com/beacon?hlpt=H&amp;fid=96&amp;ev=1&amp;pageguid=__pageguid__&amp;tax=&amp;rank=2&amp;ic_strat=2&amp;creative=__creative__&amp;searchterms=&amp;cv=gW1Gi5YlPAt%2bMV7pL%2fmPZA%3d%3d&amp;hl_qs=%2fbL0WFRyrmitWoloE2bh%2fqiVPB6yb1UnjoQpKT1xxaq%2fn4SZbIA52z9Iiz%2fIua77xXYXAvpob9IcJLDUAl%2fgGJXHIDede9SmKOcZOKd58pUZgpH610ZePMHXldbaIkhw7dqZEDwsDNh3%2f8E1EQDWujnGsgy%2bmelYG5f06KXHxSM7TxX6MqFOBF6zbQrhhXvr7z7c1%2fhALdJFx5463LARLr1vpOPONCHZvrNiGxbrUdgfG7U3%2bUD7RvEyCO9zLUoc4XAXH4Jjxx%2fyNX5HVyZ7cy0FCCiflTJQLoGGjOUsND8JCwjVu9mtQSD3Ta6FIyiwhe64f21Qpa7OA%2ft5Ibzca%2fO9fPMUWyZpZdCd4x85eloDG%2b756PQ3eTplCNPBlyeCetyNow%2bvYWlWchVjKULK%2fiaGHV6IoL8yS7wFIe1m%2fSiGeetUSvZo1elu7P9JSZ6yPGBv0cpKi%2fk1ZF5pPAq86eH2VO%2bE9z2uhVnWkq4GXgy3TArSwqUY5XvcTvz0ksYWA7aV6TzCLlQ4YbXrITuzpNSWKQRWZvCO1ri0SlIGvg%2b4kiqoS2PXjJuQ%2ffIMjAZu&amp;pid=__pid__&amp;bd=1459468800&amp;noauction=1&amp;cuserid=&amp;platform=__pfm__&amp;action=imp&amp;puserid=__puserid__"
 													data-triggered="0"
 													class="js-ad-impression-beacon sponsored-products-imp-beacon hide-content">
@@ -5812,7 +5812,7 @@
 														<div class="Tile-flags"></div>
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt"
-															src="${path.resources('img/k2-_e944d9be-a82e-43c2-bce2-418dd3b4bc08.jpg')}"
+															src="${path.resources('img/app/k2-_e944d9be-a82e-43c2-bce2-418dd3b4bc08.jpg')}"
 															alt="Battleship Game" height="144" width="144">
 															<div class="Tile-content">
 																<div class="Tile-priceContent">
@@ -5865,7 +5865,7 @@
 																</div>
 															</div>
 													</div> <img
-													src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+													src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 													data-beacon-src="//beam.hlserve.com/b/if6FpuZ8_Ee44aWbzlDonw?hlpt=H&amp;fid=96&amp;pageguid=__pageguid__&amp;tax=&amp;rank=7&amp;ic_strat=2&amp;creative=__creative__&amp;searchterms=&amp;cv=gW1Gi5YlPAt%2bMV7pL%2fmPZA%3d%3d&amp;pid=__pid__&amp;bd=1459468800&amp;noauction=1&amp;cuserid=&amp;platform=__pfm__&amp;action=imp&amp;puserid=__puserid__"
 													data-triggered="0"
 													class="js-ad-impression-beacon sponsored-products-imp-beacon hide-content">
@@ -5886,7 +5886,7 @@
 														<div class="Tile-flags"></div>
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt"
-															src="${path.resources('img/k2-_51a378fa-7e54-4327-8ab9-c210da023d8f.jpg')}"
+															src="${path.resources('img/app/k2-_51a378fa-7e54-4327-8ab9-c210da023d8f.jpg')}"
 															alt="Classic Jenga Game" height="144" width="144">
 															<div class="Tile-content">
 																<div class="Tile-priceContent">
@@ -5939,7 +5939,7 @@
 																</div>
 															</div>
 													</div> <img
-													src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+													src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 													data-beacon-src="//beam.hlserve.com/b/_Z4zRUGLNUadRSIKAOHbuQ?hlpt=H&amp;fid=96&amp;pageguid=__pageguid__&amp;tax=&amp;rank=4&amp;ic_strat=2&amp;creative=__creative__&amp;searchterms=&amp;cv=gW1Gi5YlPAt%2bMV7pL%2fmPZA%3d%3d&amp;pid=__pid__&amp;bd=1459468800&amp;noauction=1&amp;cuserid=&amp;platform=__pfm__&amp;action=imp&amp;puserid=__puserid__"
 													data-triggered="0"
 													class="js-ad-impression-beacon sponsored-products-imp-beacon hide-content">
@@ -5960,7 +5960,7 @@
 														<div class="Tile-flags"></div>
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt"
-															src="${path.resources('img/k2-_cb3a0abb-dc1b-4685-b028-1b65c0142a8b.jpg')}"
+															src="${path.resources('img/app/k2-_cb3a0abb-dc1b-4685-b028-1b65c0142a8b.jpg')}"
 															alt="Operation Despicable Me 2 Silly Skill Game"
 															height="144" width="144">
 															<div class="Tile-content">
@@ -6015,7 +6015,7 @@
 																</div>
 															</div>
 													</div> <img
-													src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+													src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 													data-beacon-src="//beam.hlserve.com/beacon?hlpt=H&amp;fid=96&amp;ev=1&amp;pageguid=__pageguid__&amp;tax=&amp;rank=13&amp;ic_strat=2&amp;creative=__creative__&amp;searchterms=&amp;cv=gW1Gi5YlPAt%2bMV7pL%2fmPZA%3d%3d&amp;hl_qs=%2fbL0WFRyrmitWoloE2bh%2fjT48hYirNky%2bD2OS8ARqxxdtbSo%2fkOjE6ftz1gz1MfT4P6oJ7mJ%2fd4ee3ia44fAWDcJzL6HGCZTDdZ98YSzN1o4pCcTf1AbWZBGiY0YQ50MHxplGWkumiuFZXpLLZY7ndpyJ3vBssP4Y2CiGrkILQ0bQRluD4LMVt%2bh1ZuP6I4E7hXCdHeBr9BlyQmYwNX9Pjdxt3x0uUmqmY5VQaAoWalvmOnvbxpdiw3snhs%2b0aFAXA1jlSEnc6LauPcZ7xEpbdl2zehfYmdSokxbhNXdH5XQ9AojQcHWNnhetvlpD6ZOSvT12ceFCqFx2Ztke9ILaPgfZAgXtC%2bgLfPS%2fbkwJxMVoLoPleGnG6tATOZ8KW3Sqaq8m6rxR6Af5cBrZP78W3HipOMgG%2fS2fpVfRmL1wriAz70uc%2byJDNM39QagUiWgYmFKMAdsWvv%2bWchnWjamqRVRhPj%2bT53vV6NAnqDj6kVmke2PZZTxXkEHWVhp65s%2bcS3%2bXZEHGCPNH5dRka9e381HIP%2b08JmnbOx8dGuwsNVKZYosYOpHMUP%2fat1JbhZQ&amp;pid=__pid__&amp;bd=1459468800&amp;noauction=1&amp;cuserid=&amp;platform=__pfm__&amp;action=imp&amp;puserid=__puserid__"
 													data-triggered="0"
 													class="js-ad-impression-beacon sponsored-products-imp-beacon hide-content">
@@ -6038,7 +6038,7 @@
 														</div>
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt"
-															src="${path.resources('img/k2-_3f85bf58-4298-4a66-856f-35007155741c.jpg')}"
+															src="${path.resources('img/app/k2-_3f85bf58-4298-4a66-856f-35007155741c.jpg')}"
 															alt="Dell Black Inspiron 3252 Desktop PC with Intel Celeron N3050 Processor, 4GB Memory, 500GB Hard Drive and Windows 10 Home (Monitor Not Included)"
 															height="144" width="144">
 															<div class="Tile-content">
@@ -6093,7 +6093,7 @@
 																</div>
 															</div>
 													</div> <img
-													src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+													src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 													data-beacon-src="//beam.hlserve.com/beacon?hlpt=H&amp;fid=96&amp;ev=1&amp;pageguid=__pageguid__&amp;tax=&amp;rank=1&amp;ic_strat=2&amp;creative=__creative__&amp;searchterms=&amp;cv=G3S4ct%2fbLFl1YJcqXUKtYg%3d%3d&amp;hl_qs=QUQWvxIbi5q57rLE3MpQJAXKV2JXNcR4fI7H2BcfLNsbAJwJOJl9nzNelIw9w7mdDEND8uC8SHTll8U824f4vbIESKims0ca9BjKwfbMinuTEJd60s1UsFBwbI8ZO0xrSbXmL31xO7E9mOlkqObJiJ2FA6ayapgmhxeRUjvwUNyGXsfVn14v%2bDX%2fU2xbjp%2fDZDyjlYv3KObcnrf7MYNnP86iZvCEvYPSJMjZx9SGGSkDdytiz5g%2bTf67mh%2fyTUeg7RISToqfl41wey%2bRcfNkvz4vORqrZfKqwuYbxA6uU7tfyPjYTcUAEMjnRFQdJFOvpZYjCLR6DgcVr8D7lhn8IhPE8zj4haKPItslGLOyVpGatepRDOUc8rK%2bw1yn7gOl26D9DR1Xn284PcgNYWxPdDgFF5GcoOoA0JeUD%2f5jSTC%2bME2VmjfEjhZNQJZJqitkF4Y0mJ8WfCRmytyqXUQBnM4kXtt%2bRMfw4pafxa4DdytNvlzQB%2fjzMSFaPGmHXgfRK2VMhSKGB8TReJfXF0%2b2%2fEQ8puBdw7U5eUK4CRD4RnFZlF6NYMEdabOcPTKgYicr&amp;pid=__pid__&amp;bd=1459468800&amp;noauction=1&amp;cuserid=&amp;platform=__pfm__&amp;action=imp&amp;puserid=__puserid__"
 													data-triggered="0"
 													class="js-ad-impression-beacon sponsored-products-imp-beacon hide-content">
@@ -6114,7 +6114,7 @@
 														<div class="Tile-flags"></div>
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt"
-															src="${path.resources('img/k2-_919f458f-7015-4378-9125-9ab3d5911c3a.jpg')}"
+															src="${path.resources('img/app/k2-_919f458f-7015-4378-9125-9ab3d5911c3a.jpg')}"
 															alt="Battleship Game" height="144" width="144">
 															<div class="Tile-content">
 																<div class="Tile-priceContent">
@@ -6167,7 +6167,7 @@
 																</div>
 															</div>
 													</div> <img
-													src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+													src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 													data-beacon-src="//beam.hlserve.com/b/P9FuYIUW_EOPLW9bv7FxUw?hlpt=H&amp;fid=96&amp;pageguid=__pageguid__&amp;tax=&amp;rank=16&amp;ic_strat=2&amp;creative=__creative__&amp;searchterms=&amp;cv=gW1Gi5YlPAt%2bMV7pL%2fmPZA%3d%3d&amp;pid=__pid__&amp;bd=1459468800&amp;noauction=1&amp;cuserid=&amp;platform=__pfm__&amp;action=imp&amp;puserid=__puserid__"
 													data-triggered="0"
 													class="js-ad-impression-beacon sponsored-products-imp-beacon hide-content">
@@ -6188,7 +6188,7 @@
 														<div class="Tile-flags"></div>
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt"
-															src="${path.resources('img/k2-_0af88eab-8667-4799-8593-3437ee9454d8.jpg')}"
+															src="${path.resources('img/app/k2-_0af88eab-8667-4799-8593-3437ee9454d8.jpg')}"
 															alt="Trouble Game" height="144" width="144">
 															<div class="Tile-content">
 																<div class="Tile-priceContent">
@@ -6242,7 +6242,7 @@
 																</div>
 															</div>
 													</div> <img
-													src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+													src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 													data-beacon-src="//beam.hlserve.com/beacon?hlpt=H&amp;fid=96&amp;ev=1&amp;pageguid=__pageguid__&amp;tax=&amp;rank=15&amp;ic_strat=2&amp;creative=__creative__&amp;searchterms=&amp;cv=gW1Gi5YlPAt%2bMV7pL%2fmPZA%3d%3d&amp;hl_qs=%2fbL0WFRyrmitWoloE2bh%2fjT48hYirNky%2bD2OS8ARqxxdtbSo%2fkOjE6ftz1gz1MfT4P6oJ7mJ%2fd4ee3ia44fAWDcJzL6HGCZTDdZ98YSzN1o4pCcTf1AbWZBGiY0YQ50MHxplGWkumiuFZXpLLZY7ndpyJ3vBssP4Y2CiGrkILQ0bQRluD4LMVt%2bh1ZuP6I4E7hXCdHeBr9BlyQmYwNX9Pjdxt3x0uUmqmY5VQaAoWalvmOnvbxpdiw3snhs%2b0aFAXA1jlSEnc6LauPcZ7xEpbcUZ0rOi21%2bz3LF487HRJ76enAW48scrQR1aqn%2fOICW6Wle3YVrMy%2bu3UIaFZlpztySEfLwuUsqJMOaYutekRozD2ozefaOGY2jBIYdzXIL9a3RG4zKDtBZU%2b55P1ATnButrZPfk5YanoqfZiM4myn5uThIeR%2fF2qt9UYPUF%2bhIm2XqYpXFnI8rG4x1pzPNopeZItUxFkUm2qYuic47Wx5xvkYw%2fISmyv1QaF4tT7XAl910MKWh5bLfS3WyFqiA3y4NtRHPDFgf0iQaUk%2fcWX3TqfVYE4DcA3XhRu39lKySj&amp;pid=__pid__&amp;bd=1459468800&amp;noauction=1&amp;cuserid=&amp;platform=__pfm__&amp;action=imp&amp;puserid=__puserid__"
 													data-triggered="0"
 													class="js-ad-impression-beacon sponsored-products-imp-beacon hide-content">
@@ -6263,7 +6263,7 @@
 														<div class="Tile-flags"></div>
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt"
-															src="${path.resources('img/k2-_7ff33b8c-10e9-4be2-927f-017948aa1701.jpg')}"
+															src="${path.resources('img/app/k2-_7ff33b8c-10e9-4be2-927f-017948aa1701.jpg')}"
 															alt="Play-Doh Super Color 20 Pack" height="144"
 															width="144">
 															<div class="Tile-content">
@@ -6312,7 +6312,7 @@
 																</div>
 															</div>
 													</div> <img
-													src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+													src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 													data-beacon-src="//beam.hlserve.com/beacon?hlpt=H&amp;fid=96&amp;ev=1&amp;pageguid=__pageguid__&amp;tax=&amp;rank=3&amp;ic_strat=2&amp;creative=__creative__&amp;searchterms=&amp;cv=Vs00r4rAWwBGz%2br%2f8dmP%2bEggqvigMXddtaNveDgcTOs%3d&amp;hl_qs=ILH2P9raW4Yeb4%2bp0XVwNDzJShPqDXJ3g6LICAaaip%2f8E6DdoMbSWLF5tqCCE2rh5UnLE9ufoUqXoF%2bHbYOtBJgyo0U5SVUYloEejiadg%2bE9ULxgVDvgq7D9L5mQai%2bxO3JhwgoZGwTdL5bk2Y4NtQMXeAtMl7r8RkZ6%2fDc8%2bmgIIbOdL9BL07UaHt3WxTSYMhEQpH%2fXWQCECjhTyK53JsImpOQNSOBjvWcUvAOEwctdZvKIkuoxdhTfKEZF245SXEeIGuwac87VLnKxValdFHk%2fgvgE6nUYMkaQ9p2cOzizoeHefoF2LBxX94%2fovL8Yd1PPitvySEBOO1LpNnvdicTdS9eki2bDSfyGMtgj14aaby2zpGbT%2fwKN%2fC%2fK6%2bCvv%2b%2bnG%2baNlkZHwe9PwlIP6FFsJ8TzuLz9BxwIUL1jgu7Qvxc9avtUXRmj8rzSEmnR1IKda69brCb7OIuw6uKim0xcY4rcCn%2f72%2f%2b4w97OU3LRaYJDbKxiMSXtxO2%2bSx0LJs8HfdHvjytRmBm4BoSGItLu9M%2bvM6WFdsTz6v3fWjx5hFlZ6isuncvgqfRSIGZygyJzlTApHmHFqzNfDVsG8g%3d%3d&amp;pid=__pid__&amp;bd=1459468800&amp;noauction=1&amp;cuserid=&amp;platform=__pfm__&amp;action=imp&amp;puserid=__puserid__"
 													data-triggered="0"
 													class="js-ad-impression-beacon sponsored-products-imp-beacon hide-content">
@@ -6333,7 +6333,7 @@
 														<div class="Tile-flags"></div>
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt"
-															src="${path.resources('img/k2-_c0cb066f-c4b4-4f19-bd87-5e7912a25d39.jpg')}"
+															src="${path.resources('img/app/k2-_c0cb066f-c4b4-4f19-bd87-5e7912a25d39.jpg')}"
 															alt="Cranium Game" height="144" width="144">
 															<div class="Tile-content">
 																<div class="Tile-priceContent">
@@ -6386,7 +6386,7 @@
 																</div>
 															</div>
 													</div> <img
-													src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+													src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 													data-beacon-src="//beam.hlserve.com/beacon?hlpt=H&amp;fid=96&amp;ev=1&amp;pageguid=__pageguid__&amp;tax=&amp;rank=12&amp;ic_strat=2&amp;creative=__creative__&amp;searchterms=&amp;cv=gW1Gi5YlPAt%2bMV7pL%2fmPZA%3d%3d&amp;hl_qs=%2fbL0WFRyrmitWoloE2bh%2fkUE8c8aIf9WPyUCMYUaYWa9RU8%2bGi4cvqPNWkRycakOZWl%2fZZVeCJwJJJN2WmNIrHahzPi2ZJWZNe2tRIFXmnvO%2bZ9%2fwerOQGLazftE%2bFHb4PTzLvrPOW8EfWCjCi8%2ftx3Irp2kyHqBzvIglBPUqswkHpIJijRVTMqBX3n4NLtfLdUNPsuWmoTlFIarP5hGCCRICTsLEPhVZnvvrREdilr%2ffXaLZHhb0%2bpNmIaHkDdQ%2brxF8Y9Hg0rb9Fnptk7Blb041smaxYc%2bPVOnsCzvw0L%2bIHg4vPbbcAGAv%2f9iwNNwqSC%2fQ%2bw71K9GFENcUSeG5W1YFyhaPhbF3jvfNWtW%2bjZJoPoAVmxuog7esBeVNyhnw0o3Pgs95IyeqAAGxxCF7tu3hCyMQuT9wmzNSDMeUWIREr1lUseCD1ur4ExlvmZxvnyezcqM%2fXxn5zbrcKtU2iAtrP0SzUondE%2fs%2fJNIK%2bj%2bKNFYeqPyH35cfDBgQl4VpGL3FSh90bMuyPwWwii2vmmdyEJyV%2f7UwSjQ0Rt32TFpAeskdK9Vhl7svAPztYd4&amp;pid=__pid__&amp;bd=1459468800&amp;noauction=1&amp;cuserid=&amp;platform=__pfm__&amp;action=imp&amp;puserid=__puserid__"
 													data-triggered="0"
 													class="js-ad-impression-beacon sponsored-products-imp-beacon hide-content">
@@ -6407,7 +6407,7 @@
 														<div class="Tile-flags"></div>
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt"
-															src="${path.resources('img/k2-_49ececfa-8e1f-480e-b2d8-b163538f9268.jpg')}"
+															src="${path.resources('img/app/k2-_49ececfa-8e1f-480e-b2d8-b163538f9268.jpg')}"
 															alt="Twister" height="144" width="144">
 															<div class="Tile-content">
 																<div class="Tile-priceContent">
@@ -6454,7 +6454,7 @@
 																</div>
 															</div>
 													</div> <img
-													src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+													src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 													data-beacon-src="//beam.hlserve.com/beacon?hlpt=H&amp;fid=96&amp;ev=1&amp;pageguid=__pageguid__&amp;tax=&amp;rank=9&amp;ic_strat=2&amp;creative=__creative__&amp;searchterms=&amp;cv=gW1Gi5YlPAt%2bMV7pL%2fmPZA%3d%3d&amp;hl_qs=%2fbL0WFRyrmitWoloE2bh%2fhGBsKMUdAyVvykKrF2P0Jwnp758jpue4CdupG%2bPlrODO3SqvjyBPUi0DmyrXaB6gF2JcucghPAJz1%2fvD5dBN2MBMCQRh1BghLoH%2fzeKLvs65aay6nEtndZIC%2fYYw%2bINulaEkq4nYfv%2bteEPwVQ5g%2f9ADB2aGEYX%2f4WKmA9yFqbdpg418uSvadT4zL6aI8AQjdY0ZKDDp1Yjp0Qqcw7HgD9QKHH7VPqk61xvFmc8uNNBH%2bACO5Xogtqm9yat2kGeZmtfkR3q0PQBQASsDvqptWPmx%2bz2OZwSLp7xpXQhNH7fj6g2WWyWgIhV7tIZTbO5kPhQEzdcX5HZcXxWtyw16H654ZaGKsZxgkgwOq%2fnHrVuby7XmLNk09CHhZNIICXkwYNfktPGVyUt%2f6lx%2bF3U5CGb6shGaZXRyEdsVaZYeZTFwN468Dx6hmQHVwD2WNvQ7cvoi2ukttyO0K9p03DHsmEUEfuuSEcfeHEm0vGBYVxybFGRiOcme6g9sPIbp2GMGA0zMMKFd%2bJUq1ZufLoe0phvUMY3ZuoGOcUt8%2b0eN5NT&amp;pid=__pid__&amp;bd=1459468800&amp;noauction=1&amp;cuserid=&amp;platform=__pfm__&amp;action=imp&amp;puserid=__puserid__"
 													data-triggered="0"
 													class="js-ad-impression-beacon sponsored-products-imp-beacon hide-content">
@@ -6477,7 +6477,7 @@
 														</div>
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt"
-															src="${path.resources('img/k2-_4ccc8a1f-c544-4e92-bedb-5641211cb13f.jpg')}"
+															src="${path.resources('img/app/k2-_4ccc8a1f-c544-4e92-bedb-5641211cb13f.jpg')}"
 															alt="Summer Infant 3D Lite Stroller" height="144"
 															width="144">
 															<div class="Tile-content">
@@ -6512,7 +6512,7 @@
 																</div>
 															</div>
 													</div> <img
-													src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+													src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 													data-beacon-src="//beam.hlserve.com/beacon?hlpt=H&amp;fid=96&amp;ev=1&amp;pageguid=__pageguid__&amp;tax=&amp;rank=10&amp;ic_strat=2&amp;creative=__creative__&amp;searchterms=&amp;hl_qs=eOaEt3XQ%2fBs%2fCXXNT8xdYujUUmgbNNOOplYA6DCNiC7aLwLW7sacsyuJ74KMOkFAYAJPXMlotXpXXWGcO%2fq2tbj2X0zFfSP9MbKpvSI%2fQzPgCXgxJ4U4m0X2PbsvaL8vzW42FsOpgZUlE38VQyyJXsObHgonaVc8u9KxJalnB87ucZu5pb7vSAlUoHsPaqJ8ZQfHRXkKHTZLSBLN9VYruTTR23orW1wOWioNF5eWgDn3bwvPXhpozn%2fhUIueTMTpju05ZNGJ1A3uP6Wlr7VdF2xvW%2fjo6pcpMiEBRBsGiWefE0VSknZ4Xet46aOREMt66gWZbfpB%2faPv4TMPucdjIFfsnPoEIXx5WdnSyZm42gX9wuDIlWabskOmyiVYy995ihjPKOkY6TRgu5gPp1Cvk0Joz1dPB145P6jPxoy5ExWw3Dcc51It5dcRd%2bWTwgyl7v7ie5Ib09yDyUNVBUQE8uP9NAp2g0W9ZrPhxADZx8MylL%2fajqb64G6Zwo2oguQLdjTncg3y1%2bT1eA1pGPCVBWurSqG1OHITtCYp1%2fdLCs4%3d&amp;pid=__pid__&amp;bd=1459468800&amp;noauction=1&amp;cuserid=&amp;platform=__pfm__&amp;action=imp&amp;puserid=__puserid__"
 													data-triggered="0"
 													class="js-ad-impression-beacon sponsored-products-imp-beacon hide-content">
@@ -6533,7 +6533,7 @@
 														<div class="Tile-flags"></div>
 														<img
 															class="product-image js-product-image Tile-img img-hide-alt"
-															src="${path.resources('img/k2-_8c82f24d-55f5-4db1-8d62-50079219c484.jpg')}"
+															src="${path.resources('img/app/k2-_8c82f24d-55f5-4db1-8d62-50079219c484.jpg')}"
 															alt="Mousetrap Game" height="144" width="144">
 															<div class="Tile-content">
 																<div class="Tile-priceContent">
@@ -6587,7 +6587,7 @@
 																</div>
 															</div>
 													</div> <img
-													src="${path.resources('img/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
+													src="${path.resources('img/app/k2-_c26840ed-0ac3-478d-9173-398eaa1faef2.png')}"
 													data-beacon-src="//beam.hlserve.com/b/QxwJ2yVHZEu5vqJyPFJyMw?hlpt=H&amp;fid=96&amp;pageguid=__pageguid__&amp;tax=&amp;rank=11&amp;ic_strat=2&amp;creative=__creative__&amp;searchterms=&amp;cv=gW1Gi5YlPAt%2bMV7pL%2fmPZA%3d%3d&amp;pid=__pid__&amp;bd=1459468800&amp;noauction=1&amp;cuserid=&amp;platform=__pfm__&amp;action=imp&amp;puserid=__puserid__"
 													data-triggered="0"
 													class="js-ad-impression-beacon sponsored-products-imp-beacon hide-content">
@@ -6628,7 +6628,7 @@
 												tabindex="-1" aria-hidden="true" data-uid="illd7MX1-0"></a>
 											<div class="Tile-img img-hide-alt">
 												<img class="lazy" alt="Electronics"
-													src="${path.resources('img/k2-_13d11db7-8ee5-4e0b-92d5-c401883bb54d.jpg')}"
+													src="${path.resources('img/app/k2-_13d11db7-8ee5-4e0b-92d5-c401883bb54d.jpg')}"
 													height="144" width="144">
 											</div>
 											<div class="Tile-content">
@@ -6646,7 +6646,7 @@
 												tabindex="-1" aria-hidden="true" data-uid="A5Cw-IQ--1"></a>
 											<div class="Tile-img img-hide-alt">
 												<img class="lazy" alt="Home"
-													src="${path.resources('img/k2-_c973a848-0bd6-4e97-98ef-d2a6040d98c2.jpg')}"
+													src="${path.resources('img/app/k2-_c973a848-0bd6-4e97-98ef-d2a6040d98c2.jpg')}"
 													height="144" width="144">
 											</div>
 											<div class="Tile-content">
@@ -6664,7 +6664,7 @@
 												tabindex="-1" aria-hidden="true" data-uid="d-l1f_A_-2"></a>
 											<div class="Tile-img img-hide-alt">
 												<img class="lazy" alt="Patio &amp; Garden"
-													src="${path.resources('img/k2-_e34b60f0-c3ce-41a3-8243-ade0959bb0e0.jpg')}"
+													src="${path.resources('img/app/k2-_e34b60f0-c3ce-41a3-8243-ade0959bb0e0.jpg')}"
 													height="144" width="144">
 											</div>
 											<div class="Tile-content">
@@ -6683,7 +6683,7 @@
 												tabindex="-1" aria-hidden="true" data-uid="0jMmXZEy-3"></a>
 											<div class="Tile-img img-hide-alt">
 												<img class="lazy" alt="Mattresses"
-													src="${path.resources('img/k2-_88824629-672f-4156-ab8d-f02ef0d6b69f.jpg')}"
+													src="${path.resources('img/app/k2-_88824629-672f-4156-ab8d-f02ef0d6b69f.jpg')}"
 													height="144" width="144">
 											</div>
 											<div class="Tile-content">
@@ -6701,7 +6701,7 @@
 												tabindex="-1" aria-hidden="true" data-uid="iGZzY9KH-4"></a>
 											<div class="Tile-img img-hide-alt">
 												<img class="lazy" alt="Clothing &amp; Jewelry"
-													src="${path.resources('img/k2-_c4f12f01-53ea-41c4-a014-6753a736f540.jpg')}"
+													src="${path.resources('img/app/k2-_c4f12f01-53ea-41c4-a014-6753a736f540.jpg')}"
 													height="144" width="144">
 											</div>
 											<div class="Tile-content">
@@ -6720,7 +6720,7 @@
 												tabindex="-1" aria-hidden="true" data-uid="EpYYtLnX-5"></a>
 											<div class="Tile-img img-hide-alt">
 												<img class="lazy" alt="Furniture"
-													src="${path.resources('img/k2-_98732331-5b1b-4997-8275-fa75f8817d8d.jpg')}"
+													src="${path.resources('img/app/k2-_98732331-5b1b-4997-8275-fa75f8817d8d.jpg')}"
 													height="144" width="144">
 											</div>
 											<div class="Tile-content">
