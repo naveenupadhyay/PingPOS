@@ -15,7 +15,6 @@ function fetchOrderJson(){
 				success : function(data) {
 					console.log("received response");
 					console.log(data);
-					
 					// code to use the json received and paint the ui goes here.
 				},
 			});
@@ -25,16 +24,10 @@ function fetchOrderJson(){
 function pullOrder(){
     var mobile =9886902226;
 	var settings = {
-	  "async": true,
-	  "crossDomain": true,
-	  "url": "/getOrderDetails",
-	  "dataType" : "text",
-	  "method": "POST",
-	  "headers": {
-		"content-type": "application/json",
-		},
-	  "processData": false,
-      "data" : {'mobile' : mobile}
+	 "type" : "POST",
+	 "url" : "/getOrderDetails",
+	 "dataType" : "text",
+     "data" : {"mobile" : mobile}
 }
 
 	$.ajax(settings).done(function (response) {
