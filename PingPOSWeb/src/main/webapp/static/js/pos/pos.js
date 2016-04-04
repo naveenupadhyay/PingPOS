@@ -78,17 +78,15 @@ function postOrder(){
 						 }
 		itemDetails.push(itemDetail);
 		}
-
-	var submitOrderRequestJSON = {
-									"notification_count":1, 
-
+	var submitOrderRequest = {
+									"notification_count":1,
 									"customer_id":customer_id,
 									"itemCount":itemCount,
 									"items":itemDetails,
 								 }
 	var submitOrderRequestJSON = {
 									"json":JSON.stringify(submitOrderRequest),
-									"mobile" :"9991119991"
+									"mobile" :"9886902226"
 								 }
 	console.log("Payload is : " + JSON.stringify(submitOrderRequestJSON));
 	var settings = {
