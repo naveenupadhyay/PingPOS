@@ -38,9 +38,7 @@ function pullOrder(){
 }
 function processOrder(response){
 	alert("before");
-	$('.notification').click( function(){
-		$(".homepage-middle-zone").hide();
-	});
+	$(".homepage-middle-zone").hide();
 	alert("inside");
     var html = "";
 	response = {  
