@@ -8,7 +8,7 @@ package com.walmart.pingpos.configuration;
  * property is applicable.
  * <p>
  * File properties will always override db level properties (mentioned in
- * {@link com.snapdeal.FCProperty.core.entity.ShippingProperty} table). DB level properties will not have environment name
+ * {@link com.walmart.FCProperty.core.entity.ShippingProperty} table). DB level properties will not have environment name
  * prefixed.
  * 
  * @author amd

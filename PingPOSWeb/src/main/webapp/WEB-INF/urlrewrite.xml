@@ -2,9 +2,9 @@
 <!DOCTYPE urlrewrite  PUBLIC "-//tuckey.org//DTD UrlRewrite 3.2//EN" "http://www.tuckey.org/res/dtds/urlrewrite3.2.dtd">
 <urlrewrite>
 	<rule>
-		<condition name="host" operator="equal">^snapdeal\.com</condition>
+		<condition name="host" operator="equal">^walmart\.com</condition>
 		<from>^/(.*)</from>
-		<to type="permanent-redirect" last="true">http://www.snapdeal.com/$1</to>
+		<to type="permanent-redirect" last="true">http://www.walmart.com/$1</to>
 	</rule>
 	<rule enabled="true">
 		<from>^/favicon.ico$</from>
@@ -28,7 +28,7 @@
 		<to last="true">/static/$2/$3</to>
 	</rule>
 	<rule>
-		<condition name="host" operator="notequal">^www\.snapdeal\.com</condition>
+		<condition name="host" operator="notequal">^www\.walmart\.com</condition>
 		<from>^/robots.txt</from>
 		<to type="forward" last="true">/robotsno.txt</to>
 	</rule>
@@ -57,13 +57,13 @@
 		<to type="redirect" last="true">/info/aboutus</to>
 	</rule>
 	<rule>
-		<condition name="host" operator="equal">^api\.snapdeal\.com</condition>
+		<condition name="host" operator="equal">^api\.walmart\.com</condition>
 		<from>^/rest/(.*)</from>
 		<to>/api/rest/$1</to>
 		<set type="response-header" name="Content-Type">text/xml; charset=UTF-8</set>
 	</rule>
 	<rule>
-		<condition name="host" operator="equal">^getaways\.snapdeal\.com</condition>
+		<condition name="host" operator="equal">^getaways\.walmart\.com</condition>
 		<from>^/(.*)$</from>
 		<set name="getaways">true</set>
 	</rule>

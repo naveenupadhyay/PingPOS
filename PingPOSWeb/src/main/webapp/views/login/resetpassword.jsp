@@ -1,10 +1,10 @@
 <%@ include file="/tld_includes.jsp"%>
 <tiles:insertTemplate template="/views/layout/base.jsp">
 
-	<tiles:putAttribute name="title" value="shipping.snapdeal.com - Reset Your Password"/>
+	<tiles:putAttribute name="title" value="shipping.walmart.com - Reset Your Password"/>
 	
 	<tiles:putAttribute name="head">
-		<link href="${path.css('snapdeal/voucher.css')}" rel="stylesheet" type="text/css" />
+		<link href="${path.css('walmart/voucher.css')}" rel="stylesheet" type="text/css" />
 	</tiles:putAttribute>
 	
    <tiles:putAttribute name="body">

@@ -67,7 +67,7 @@ public class SiteResolverUtils {
     public static String getRequestPath(HttpServletRequest request) {
         String url = request.getRequestURL().toString();
         StringBuilder sb = new StringBuilder();
-        sb.append(url.substring(url.indexOf(".snapdeal.com") + 13, url.length())).append("?");
+        sb.append(url.substring(url.indexOf(".walmart.com") + 13, url.length())).append("?");
         Map<String, String> parameters = getParameterMap(request);
         for (String name : parameters.keySet()) {
             sb.append(name).append("=").append(parameters.get(name)).append("&");
@@ -78,7 +78,7 @@ public class SiteResolverUtils {
 
     private static String getRequestPathWithoutParam(HttpServletRequest request) {
         String url = request.getRequestURL().toString().toLowerCase();
-        return url.substring(url.indexOf(".snapdeal.com") + 13, url.length());
+        return url.substring(url.indexOf(".walmart.com") + 13, url.length());
         /*Map<String, String> parameters = getParameterMap(request);
         if (parameters != null && parameters.keySet().size() > 0) {
             return requestPath.substring(0, url.indexOf(parameters.keySet().iterator().next()) - 1);

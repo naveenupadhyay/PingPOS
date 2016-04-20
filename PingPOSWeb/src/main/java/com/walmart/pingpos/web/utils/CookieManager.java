@@ -15,9 +15,9 @@ public class CookieManager {
         Cookie ckUser = new Cookie(name, value);
         ckUser.setMaxAge(expiry);
         ckUser.setPath("/");
-        ckUser.setDomain(".snapdeal.com");
+        ckUser.setDomain(".walmart.com");
         response.addCookie(ckUser);
-        response.setHeader("P3P", "policyref=\"http://www.snapdeal.com/w3c/p3p.xml\", " + "CP=\"NOI CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT\"");
+        response.setHeader("P3P", "policyref=\"http://www.walmart.com/w3c/p3p.xml\", " + "CP=\"NOI CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT\"");
     }
 
     public static Cookie getCookie(HttpServletRequest request, String name) {
@@ -37,7 +37,7 @@ public class CookieManager {
         if (cookie != null) {
             cookie.setMaxAge(0);
             cookie.setPath("/");
-            cookie.setDomain(".snapdeal.com");
+            cookie.setDomain(".walmart.com");
             response.addCookie(cookie);
         }
     }

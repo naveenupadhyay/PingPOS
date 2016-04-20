@@ -5,7 +5,7 @@
     <intercept-url pattern="/login" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
     <form-login login-page="/login" login-processing-url="/login_security_check" always-use-default-target="false" default-target-url="/" authentication-success-handler-ref="customSuccessHandler" authentication-failure-handler-ref="customFailureHandler"/>
     <logout invalidate-session="true" logout-url="/logout" success-handler-ref="sdLogoutSuccessHandler"/>
-    <remember-me key="snapdealRem"/>
+    <remember-me key="walmartRem"/>
   </http>
   <beans:bean id="sdLogoutSuccessHandler" class="com.walmart.pingpos.web.security.CustomLogoutSuccessHandler">
 	</beans:bean>

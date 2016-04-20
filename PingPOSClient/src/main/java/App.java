@@ -1,4 +1,4 @@
-package $com.snapdeal.archetype;
+package $com.walmart.archetype;
 
 /**
  * Hello world!

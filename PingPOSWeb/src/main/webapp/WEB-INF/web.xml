@@ -48,7 +48,7 @@
 	</filter-mapping>
 <!-- 	<filter> -->
 <!-- 		<filter-name>adminFilter</filter-name> -->
-<!-- 		<filter-class>com.snapdeal.shipping.web.filter.AdminFilter</filter-class> -->
+<!-- 		<filter-class>com.walmart.shipping.web.filter.AdminFilter</filter-class> -->
 <!-- 	</filter> -->
 <!-- 	<filter-mapping> -->
 <!-- 		<filter-name>adminFilter</filter-name> -->
@@ -63,7 +63,7 @@
 		<url-pattern>/service/shipping/*</url-pattern>
 	</filter-mapping>
 -->	<resource-ref>
-		<description>tomcat snapdeal datasource</description>
+		<description>tomcat walmart datasource</description>
 		<res-ref-name>jdbc/ShippingDS</res-ref-name>
 		<res-type>javax.sql.DataSource</res-type>
 		<res-auth>Container</res-auth>

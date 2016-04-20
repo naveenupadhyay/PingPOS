@@ -14,7 +14,7 @@ import com.walmart.pingpos.configuration.exception.InvalidConfigurationException
 
 /**
  * Retrieves value of a specified {@link Property} from either file configuration (SHIPPING_CONFIG_RELATIVE_PATH) or
- * {@link com.snapdeal.Property.core.entity.ShippingProperty} table. If present, value if file overrides value in DB.
+ * {@link com.walmart.Property.core.entity.ShippingProperty} table. If present, value if file overrides value in DB.
  * All methods present in this util are static.
  * 
  * @author amd
@@ -34,12 +34,12 @@ public class ConfigUtils {
      * 2. Name of the {@link Property} present in SHIPPING_CONFIG_RELATIVE_PATH without any prefix. Such a property
      * would be applicable across all envirnments.
      * <p>
-     * 3. Name of the {@link Property} present in {@link com.snapdeal.pingposProperty.core.entity.ShippingProperty} table.
+     * 3. Name of the {@link Property} present in {@link com.walmart.pingposProperty.core.entity.ShippingProperty} table.
      * <p>
      * 4. Default value of {@link Property}
      * <p>
      * 5. Returns null if default value is not found. Should never happen. Note: {@link Property} name present in
-     * {@link com.snapdeal.pingposProperty.core.entity.ShippingProperty} will never have environment prefixed.
+     * {@link com.walmart.pingposProperty.core.entity.ShippingProperty} will never have environment prefixed.
      * <p>
      * 
      * @param p

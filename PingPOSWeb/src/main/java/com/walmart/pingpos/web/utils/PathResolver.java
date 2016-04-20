@@ -153,12 +153,12 @@ public class PathResolver {
             return sb.toString();
         } else if (!req.isSecure() && Environment.STAGING.getName().equals(env)) {
             StringBuilder sb = new StringBuilder();
-            sb.append(req.getScheme() + "://static.snapdeal.com:8081/static/pingpos/");
+            sb.append(req.getScheme() + "://static.walmart.com:8081/static/pingpos/");
             sb.append(path);
             return sb.toString();
         } else if (!req.isSecure() && Environment.RELEASE.getName().equals(env)) {
             StringBuilder sb = new StringBuilder();
-            sb.append(req.getScheme() + "://sitestatic.release.snapdeal.com:8081/static/pingpos/");
+            sb.append(req.getScheme() + "://sitestatic.release.walmart.com:8081/static/pingpos/");
             sb.append(path);
             return sb.toString();
         } else {

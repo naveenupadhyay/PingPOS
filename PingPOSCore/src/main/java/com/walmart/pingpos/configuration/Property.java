@@ -15,7 +15,7 @@ PINGPOS;
  * 1. SHIPPING_CONFIG_RELATIVE_PATH: prefixed by {@link Environment} name. Property name would be applicable globally 
  *    if no environment name is prefixed.
  * <p>
- * 2. In {@link com.snapdeal.FCProperty.core.entity.ShippingProperty} table.
+ * 2. In {@link com.walmart.FCProperty.core.entity.ShippingProperty} table.
  * <p> 
  * Value present at SHIPPING_CONFIG_RELATIVE_PATH will always override value present in shipping_property table.
  * 

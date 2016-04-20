@@ -33,11 +33,11 @@ public class RequestIdentifierFilter extends OncePerRequestFilter {
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain chain) throws ServletException, IOException {
         if (request.getPathInfo() == null || !request.getPathInfo().matches(".*/(css|img|js|w3c|font)/.*")) {
             String url = request.getRequestURL().toString().toLowerCase();
-            RequestContext.current().setRequestUrl(url.substring(url.indexOf(".snapdeal.com/m") + 15, url.length()));
-            //            int index = url.lastIndexOf(".snapdeal.com");
+            RequestContext.current().setRequestUrl(url.substring(url.indexOf(".walmart.com/m") + 15, url.length()));
+            //            int index = url.lastIndexOf(".walmart.com");
             //            if (index != -1) {
             //                if (!"getaways|staging|release.dev|releasestatic.dev|dev|matrix|www|pt.dev|main.dev|mainstatic.dev|branch1.dev|branch1static.dev|m.dev|mstatic.dev|matrix2|matrix3|cc|shipping|".contains(affName)) {
-            //                    response.sendRedirect("http://www.snapdeal.com" + StringUtils.getNotNullValue(request.getPathInfo()));
+            //                    response.sendRedirect("http://www.walmart.com" + StringUtils.getNotNullValue(request.getPathInfo()));
             //                    return;
             //                }
             //            }
