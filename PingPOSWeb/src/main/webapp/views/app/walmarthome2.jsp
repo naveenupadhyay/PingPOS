@@ -618,8 +618,8 @@
 											</div>
 										</div>
 										<div
-											class="header-mobile-other header-storefinder hide-content-l">
-											<a href="" class="notification" style="display:none" onclick="pullOrder()">1</a>
+											class="header-mobile-other header-storefinder hide-content-l" onclick="pullOrder();">
+											<a href="#" class="notification" style="display:none" >1</a>
 
 										</div>
 									</div>
@@ -5259,8 +5259,8 @@
 				</div>
 			</div>
 			
-			<tbody id="displayCart">
-			</tbody>
+			<div id="displayCart">
+			</div>
 			<div class="homepage-middle-zones">
 				<div class="homepage-middle-left"></div>
 				<div class="homepage-middle ">
